@@ -6,7 +6,7 @@ const Article = {
         <article class="headline">
           <figure class="headline__figure">
             <img src="img/cloud-green.jpg" alt="Awan">
-            <figcaption>C23-M4030 2023, 4 Anggota</figcaption>
+            <figcaption>C624-PS072 2024, 3 Anggota</figcaption>
           </figure>
           <div class="headline__content">
             <h1 class="headline__title">#apaitucuaca : Cuaca Adalah ...</h1>
