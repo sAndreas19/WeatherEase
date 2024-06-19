@@ -5,7 +5,7 @@ const AboutUs = {
     <div class="container px-lg-5">
         <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
             <h1 class="mb-3">Our Team Members</h1>
-            <p class="mb-1">Tim kami merupakan peserta dari Dicoding Academy tahun 2023, dipertemukan melalui open member tim Capstone melalui discord.</p>
+            <p class="mb-1">Tim kami merupakan peserta dari Dicoding Academy Batch 6, dipertemukan melalui open member tim Capstone melalui discord.</p>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
