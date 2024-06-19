@@ -1,0 +1,258 @@
+@media screen and (max-width: 700px) {
+    header .navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .header-title {
+        display: flex;
+        padding-left: 10px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .navigation-drawer {
+        line-height: 2rem;
+        margin-top: 0px;
+        color: white;
+        text-decoration: none;
+    }
+
+    header .navbar .navbar-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navbar-container {
+    top: 50px; /* Menghapus duplikasi top dan menyesuaikan posisi */
+    background: linear-gradient(90deg, #be1919 0%, #ff6a6a 100%); /* Warna gradient */
+    width: 100%;
+    position: absolute;
+    -webkit-transform: translate(100%, 0);
+    transform: translate(-120%, 0);
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.4); /* Mengubah bayangan agar lebih halus */
+    transition: transform 0.4s ease, background 0.4s ease; /* Menambahkan transition untuk background */
+    padding: 10px 20px; /* Menambahkan padding */
+    border-radius: 8px; /* Membuat sudut lebih bulat */
+}
+
+.navbar-container:hover {
+    background: linear-gradient(90deg, #ff6a6a 0%, #be1919 100%); /* Efek hover untuk background */
+    transform: translate(0, -10px); /* Mengangkat navbar saat di-hover */
+}
+
+
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .navbar-item {
+        display: list-item;
+        width: 100%;
+    }
+
+    .navigation-responsive {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+
+    .header-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 280px) {
+    .posts {
+        grid-template-columns: auto;
+        display: grid;
+    }
+
+    .article-main {
+        max-width: 275px;
+    }
+
+    .latest {
+        max-width: 275px;
+    }
+
+    .headline{
+        max-width: 275px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post-item {
+        width: 255px;
+    }
+
+    .content{
+        padding: 32px 0;
+    }
+
+    .headline__figure {
+        width: 275px;
+    }
+
+    .headline__content {
+        width: 275px;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    .article-main {
+        max-width: 400px;
+    }
+
+    .latest {
+        max-width: 400px;
+    }
+
+    .headline{
+        max-width: 400px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post-item {
+        width: 300px;
+    }
+
+    .content{
+        padding: 32px;
+    }
+
+    .headline__figure {
+        width: 350px;
+    }
+
+    .headline__content {
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .search-container{
+        width: 800px;
+    }
+
+    .navigation-responsive {
+        display: none;
+    }
+
+    .headline{
+        max-width: 600px;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .headline__figure {
+        width: 450px;
+    }
+
+    .headline__content {
+        width: 600px;
+    }
+
+    .latest {
+        max-width: 600px;
+    }
+
+    .article-main {
+        max-width: 600px;
+    }
+
+    .post-item {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .article-main {
+        max-width: 700px;
+    }
+
+    .latest {
+        max-width: 700px;
+    }
+
+    .headline{
+        max-width: 700px;
+    }
+
+    .post-item {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .article-main {
+        max-width: 900px;
+    }
+
+    .latest {
+        max-width: 900px;
+    }
+
+    .posts {
+        grid-template-columns: auto auto;
+        display: grid;
+    }
+
+    .headline{
+        max-width: 900px;
+    }
+
+    .post-item {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .article-main {
+        max-width: 1100px;
+    }
+
+    .latest {
+        max-width: 1100px;
+    }
+
+    .posts {
+        grid-template-columns: auto auto;
+        display: grid;
+    }
+    .headline{
+        max-width: 1100px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .article-main {
+        max-width: 1200px;
+    }
+
+    .latest {
+        max-width: 1200px;
+    }
+
+    .posts {
+        grid-template-columns: auto auto auto;
+        display: grid;
+    }
+
+    .post-item {
+        width: 300px;
+    }
+
+    .headline{
+        max-width: 1300px;
+    }
+}
